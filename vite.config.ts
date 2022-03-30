@@ -1,5 +1,6 @@
 import react from '@vitejs/plugin-react';
 import * as fs from 'fs';
+// @ts-ignore
 import lessToJS from 'less-vars-to-js';
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
