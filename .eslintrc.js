@@ -31,6 +31,10 @@ module.exports = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'object-curly-spacing': ['error', 'always']
+    'object-curly-spacing': ['error', 'always'],
+    'arrow-body-style': 'off',
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
+    'import/prefer-default-export': 'off',
+    'no-underscore-dangle': 'off',
   },
 };
